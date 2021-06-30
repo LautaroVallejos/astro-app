@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "planetas_casas",
+  "info": {
+    "name": "planetas-casas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "planeta": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "casa": {
+      "type": "integer"
+    }
+  }
+}

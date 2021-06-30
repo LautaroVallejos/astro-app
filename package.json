@@ -2,7 +2,7 @@
   "name": "astro-app",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Pagina Dinámica para la creación de cartas natales automática",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,23 +11,27 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "axios": "^0.21.1",
+    "knex": "0.21.18",
+    "mime-types": "^2.1.27",
+    "mongoose": "^5.13.0",
+    "node": "^16.4.0",
+    "sqlite3": "5.0.0",
     "strapi": "3.6.5",
     "strapi-admin": "3.6.5",
-    "strapi-utils": "3.6.5",
-    "strapi-plugin-content-type-builder": "3.6.5",
-    "strapi-plugin-content-manager": "3.6.5",
-    "strapi-plugin-users-permissions": "3.6.5",
-    "strapi-plugin-email": "3.6.5",
-    "strapi-plugin-upload": "3.6.5",
-    "strapi-plugin-i18n": "3.6.5",
     "strapi-connector-bookshelf": "3.6.5",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0",
-    "mime-types": "^2.1.27",
-    "strapi-plugin-graphql": "3.6.5"
+    "strapi-connector-mongoose": "^3.6.5",
+    "strapi-plugin-content-manager": "3.6.5",
+    "strapi-plugin-content-type-builder": "3.6.5",
+    "strapi-plugin-email": "3.6.5",
+    "strapi-plugin-graphql": "3.6.5",
+    "strapi-plugin-i18n": "3.6.5",
+    "strapi-plugin-upload": "3.6.5",
+    "strapi-plugin-users-permissions": "3.6.5",
+    "strapi-utils": "3.6.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Lautaro Vallejos"
   },
   "strapi": {
     "uuid": "af13287b-2eb5-494f-80a4-547e83aee0df",

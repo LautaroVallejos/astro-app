@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/planetas-casas",
+      "handler": "planetas-casas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/planetas-casas/count",
+      "handler": "planetas-casas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/planetas-casas/:id",
+      "handler": "planetas-casas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/planetas-casas",
+      "handler": "planetas-casas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/planetas-casas/:id",
+      "handler": "planetas-casas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/planetas-casas/:id",
+      "handler": "planetas-casas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
